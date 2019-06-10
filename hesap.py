@@ -1,14 +1,14 @@
 print("""
 ----------------Yazar:LastEfkar----------------
 ===============================
-[1] Toplama 0_lemi
+[1] Toplama İşlemi
 LastEfkar
 ===============================
         """)
-veri = input("0_lem:")
+veri = input("İslem:")
 if veri =="1":
-    x = input("Birinci Say1 : ")
+    x = input("Birinci Sayi : ")
     x = float (x)
-    y = input("0kinici Say1 : ")
+    y = input("İkinici Sayi : ")
     y = float (y)
     print("Sonuç : ", x + y)
